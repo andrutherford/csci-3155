@@ -1,0 +1,21 @@
+var a = 1
+jsy.print(a)
+var x = 1
+var y = 2
+var z = x + y
+jsy.print(z)
+function (arg1: number, arg2: string) { return 1 }(1, 'abcd')
+interface testObj {n:number; b:bool}
+var testVar = {n:5, b: null}
+var x = 1
+const f = function(var x: number) {return x = x + x}
+f(x) + x
+var x = null
+var xobj = <testObj> x
+jsy.print(xobj)
+var orig_obj = {a:7, b: "a string", c: true}
+interface new_obj_type {a:number; b: string}
+var new_obj = <new_obj_type> orig_obj
+jsy.print(new_obj)
+var testVar = {n:5, b: null, s: "test"}
+jsy.print(testVar)

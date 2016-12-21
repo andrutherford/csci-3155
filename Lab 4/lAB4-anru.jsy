@@ -1,0 +1,5 @@
+const x =3 > 2; const z = "hi" > "hello"; function (a:bool, b:bool) : bool {return a === b}(x, z);
+//const q = "2" + 2
+//const q = "strings" > 2
+//bash lab4.sh anru9411.jsy
+//output true

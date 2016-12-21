@@ -1,0 +1,7 @@
+const test = function (x) { return x/3 }
+const x = 24-6
+const y = false || 5+4
+const z = true
+jsy.print(!(true && z) ? 0 : test(y) * test(x))
+jsy.print(y+x)
+//18

@@ -1,0 +1,4 @@
+const f = function (reg: RegExp) {
+  return reg
+}
+f(/^xy$/).test("xy&" + "xxxyyyyy"))
